@@ -1,0 +1,223 @@
+p {
+    text-align: justify;
+}
+
+.cima{
+    width:100%;
+    background-color: #e7e7e7;
+
+}
+.cima2{
+    width:80%;
+    background-color: #e7e7e7;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+.texto{
+    margin-top: auto;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.logo{
+    margin-top: auto;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+.menu{
+    height: 60px;
+    background-color:#097c2d;
+    border:solid 1px;
+    margin-top: auto;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.noticias{
+    margin-top: auto;
+    margin-left: 9%;
+    margin-right: 33;
+}
+
+.cursos{
+    margin-top: -11%;
+    margin-left: 63%;
+    margin-right: 9%;
+}
+
+.avisos{
+    width: 32%;
+    margin-left: 0%;
+    margin-right: 66%;
+}
+
+.agenda{
+    margin-top: -14%;
+    width: 28%;
+    margin-left: 38%;
+    margin-right: 34%;
+}
+
+.editais{
+    margin-top: -8%;
+    width: 36%;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+#divBusca{
+    background-color:#ffffff;
+    border:solid 1px;
+    width:300px;
+    float: right;
+    position: absolute;
+    top: 130px; 
+    right: 150px; 
+}
+  
+#txtBusca{
+    float:right;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:300px;
+  }
+
+button{
+    background-color: #097c2d;
+    height: 40px;
+    width: 40px;
+}
+
+.parag1{
+    margin-top: -19.5%;
+    margin-left: 32%;
+    margin-right: 0%;
+    width: 67%;
+}
+.parag2{
+    margin-top: -15%;
+    margin-left: 22%;
+    margin-right: 0%;
+    width: 30%;
+}
+
+.parag22{
+    margin-top: -14%;
+    margin-left: 22%;
+    margin-right: 0%;
+    width: 30%;
+}
+
+.parag3{
+    margin-top: -28.5%;
+    margin-left: 34%;
+    margin-right: 0%;
+    width: auto;
+}
+
+.barrat{
+    height: 80px;
+    margin-bottom: 0%;
+    background-color: rgb(180, 41, 41);
+    color: #ffffff;
+    text-align: center;
+}
+.barrai{
+    margin-bottom: 0px;
+    background-color: rgb(206, 201, 201);
+}
+.primeiro{
+    margin-top: auto;
+    width: 23%;
+    margin-left: 0%;
+    margin-right: auto;
+}
+
+.segundo{
+    margin-top: -187px;
+    width: 23%;
+    margin-left: 25%;
+    margin-right: 50%;
+}
+
+.terceiro{
+    margin-top: -134;
+    width: 23%;
+    margin-left: 50%;
+    margin-right: 25%;
+}
+
+.quarto{
+    margin-top: -167;
+    width: 23%;
+    margin-left: auto;
+    margin-right: 0%;
+}
+
+.center{
+    text-align: center;
+}
+
+.slider {
+    display: block;
+    height: 400px;
+    width: 1260px;
+    margin: auto;
+    margin-right: 10%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+* { margin: 0; padding: 0; }
+
+.slider label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
